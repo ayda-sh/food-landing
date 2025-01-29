@@ -259,7 +259,7 @@ li {
 .offers-sec .offer-title p {
     font-size: 18px;
     font-weight: 400;
-    color: #fff;
+    color: #ffffffb3;
     width: 835px;
     text-align: center;
     margin: 30px 0;
@@ -347,3 +347,82 @@ li {
     justify-content: center;
 }
 
+.aboutus-sec {
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    padding-right: 115px;
+}
+
+.aboutus-sec .about-rightside .about-title h3 {
+    width: 480px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+.aboutus-sec .about-rightside .about-title h3 .red {
+    color: #F65F5F;
+}
+
+.aboutus-sec .about-rightside .about-title h3 .yellow {
+    color: #ffc364;
+}
+
+.aboutus-sec .about-rightside .about-title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.16px;
+    color: #ffffffb3;
+    margin: 25px 0;
+}
+
+.aboutus-sec .services {
+    display: flex;
+    gap: 70px;
+}
+
+.aboutus-sec .services .col ul {
+    gap: 30px;
+    display: grid;
+}
+
+.aboutus-sec .services .col ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+
+}
+
+.aboutus-sec .aboutus-btn {
+    margin-top: 35px;
+}
+
+.aboutus-sec .aboutus-btn  a {
+    background: #F65F5F;
+    padding: 10px 20px;
+    color: #0D0D0D;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+
+.about-leftimg {
+    position: relative;
+}
+
+.about-leftimg:after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/chevron.png);
+    width: 417px;
+    height: 500px;
+    right: -126px;
+    background-repeat: no-repeat;
+    top: 16%;
+}
