@@ -193,7 +193,13 @@ li {
     display: flex;
     gap: 30px;
     align-items: center;
+    position: relative;
 }
+
+.onclick-btn img {
+    margin-top: 28px;
+}
+
 
 .main-header .left-main-header .main-btns .dwn-app {
     background-color: #F65F5F;
@@ -340,3 +346,4 @@ li {
     display: flex;
     justify-content: center;
 }
+
