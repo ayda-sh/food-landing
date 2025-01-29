@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Landing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/app.css">
 </head>
 <body>
@@ -17,7 +18,7 @@
                     </div>
                 </div>
                 <div class="right-nav">
-                    <div class="menu">
+                    <div class="menu-nav">
                         <ul>
                             <li><a href="#">Today special offers</a></li>
                             <li><a href="#">Why FoodHut</a></li>
@@ -33,26 +34,37 @@
 
 
             <div class="main-header">
-                <div class="left">
+                <div class="left-main-header">
                     <div class="heading">
-                        <div class="tr-span">
+                        <div class="left-title-span">
                             <img src="./assets/images/Ellipse 43.png" alt="">
                             <span>People Trust us</span>
                         </div>
-                        <h1>We're <span>Serious</span> For <span>Food</span> & <span>Delivery</span>.</h1>
+                        <h1>We're <span class="red">Serious</span> For <span class="red">Food</span> & <span class="yellow">Delivery</span>.</h1>
                     </div>
-                    <p>Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
+                    <p class="desc">Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
 
                     <div class="search-box">
-                        <input type="search">
+                        <form action="">
+                            <img src="./assets/images/search.png" alt="">
+                            <input class="search-icon1" type="search" placeholder="Search food">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
                     </div>
 
                     <div class="main-btns">
-                        <a href="">Downlode App</a>
-                        <a href="">Watch Video</a>
+                        <a class="dwn-app" href="#">Downlode App</a>
+                        <div class="Watch-video">
+                            
+                            <a href="#">
+                                <i class="fa-solid fa-play"></i>
+                                Watch Video</a>
+                        </div>
                     </div>
                 </div>
-                <div class="right"></div>
+                <div class="right-main-header">
+                    <img src="./assets/images/Group 8469.png" alt="">
+                </div>
             </div>
         </div>
 
@@ -62,19 +74,91 @@
     <main>
         <section class="offers-sec">
             <div class="container">
-                <div class="title">
+                <div class="offer-title">
                     <h2>Today <span>special</span> offers</h2>
-                    <p></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 </div>
 
                 <div class="products">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
+                    <div class="product-box">
+                        <img src="./assets/images/Group 8448.png" alt="">
+                      
+                        <div class="content">
+                            <span class="price">10$</span>
+                            <div class="reviews">
+                                <img src="./assets/images/rv1.png" alt="">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.5)</span>
+                            </div>
+                            <div class="product-title">
+                                <h4>Kebab</h4>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <div class="order-btn">
+                                <a href="#">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <img src="./assets/images/Group 8448 (1).png" alt="">
+                        <div class="content">
+                            <span class="price">15$</span>
+                            <div class="reviews">
+                                <img src="./assets/images/rv2.png" alt="">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.8)</span>
+                            </div>
+                            <div class="product-title">
+                                <h4>Chicken Tikka</h4>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <div class="order-btn">
+                                <a href="#">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <img src="./assets/images/Group 8448 (2).png" alt="">
+                        <div class="content">
+                            <span class="price">8$</span>
+                            <div class="reviews">
+                                <img src="./assets/images/rv3.png" alt="">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.2)</span>
+                            </div>
+                            <div class="product-title">
+                                <h4>Desi Chowmein</h4>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <div class="order-btn">
+                                <a href="#">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <img src="./assets/images/Group 8448 (3).png" alt="">
+                        <div class="content">
+                            <span class="price">28$</span>
+                            <div class="reviews">
+                                <img src="./assets/images/rv1.png" alt="">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                            <div class="product-title">
+                                <h4>Chicken Chargha</h4>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <div class="order-btn">
+                                <a href="#">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
+
+        
     </main>
     
 </body>
