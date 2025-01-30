@@ -579,6 +579,12 @@ li {
 }
 
 
+.footer-row .center-col {
+    display: flex;
+    gap: 90px;
+}
+
+
 .copyright {
     font-size: 16px;
     font-weight: 400;
@@ -586,4 +592,16 @@ li {
     text-align: center;
     margin: 90px 0;
 
+}
+
+.header-sec .mobile-menu {
+    display: none;
+}
+
+.header-sec .mobile-menu i {
+    color: #fff;
+}
+
+.about-leftimg .aboutus-mobileimg {
+    display: none;
 }

@@ -6,6 +6,7 @@
     <title>Food Landing</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
 
@@ -13,14 +14,17 @@
         <div class="container">
             <nav class="top-nav">
                 <div class="left-nav">
-                    <div class="logo">
+                    <div class="web-logo">
                         <img src="./assets/images/Logo.png" alt="">
                     </div>
+                </div>
+                <div class="mobile-menu">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
                 <div class="right-nav">
                     <div class="menu-nav">
                         <ul>
-                            <li><a href="#">Today special offers</a></li>
+                            <li><a href="#special-offer">Today special offers</a></li>
                             <li><a href="#">Why FoodHut</a></li>
                             <li><a href="#">Our Menu</a></li>
                             <li><a href="#">Our Popular food</a></li>
@@ -63,7 +67,7 @@
                     </div>
                 </div>
                 <div class="right-main-header">
-                    <img src="./assets/images/Group 8469.png" alt="">
+                    <img src="./assets/images/main-header1.png" alt="">
                 </div>
                
             </div>
@@ -78,7 +82,7 @@
     <main>
 
         <!-- Offers section -->
-        <section class="offers-sec">
+        <section id="special-offer" class="offers-sec">
             <div class="container">
                 <div class="offer-title">
                     <h2>Today <span>special</span> offers</h2>
@@ -169,6 +173,7 @@
         
                 <div class="about-leftimg">
                     <img src="./assets/images/about2.png" alt="">
+                    <img class="aboutus-mobileimg" src="./assets/images/aboutus-mobile.png" alt="">
                 </div>
                 <div class="about-rightside">
                     <div class="about-title">
@@ -352,23 +357,25 @@
 
                     </div>
                 </div>
-                <div class="col">
-                    <h5>About Us</h5>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Service Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Company</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h5>Company</h5>
-                    <ul>
-                        <li><a href="#">Partnership</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Sitemap</a></li>
-                    </ul>
+                <div class="center-col">
+                    <div class="col">
+                        <h5>About Us</h5>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Service Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Company</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="#">Partnership</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col">
                     <h5>Get in touch</h5>

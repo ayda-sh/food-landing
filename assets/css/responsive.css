@@ -1,0 +1,117 @@
+@media screen and (max-width:767px) {
+    
+.header-sec .mobile-menu {
+    display: block !important;
+}
+.header-sec .top-nav .right-nav {
+    display: none !important;
+}
+.header-sec .mobile-menu i {
+    font-size: 30px;
+}
+.top-nav {
+    padding: 20px;
+}
+
+.web-logo img {
+    width: 97px;
+}
+.main-header {
+    flex-wrap: wrap-reverse;
+}
+.right-main-header img {
+    width: 100%;
+}
+.main-header .left-main-header .heading h1 {
+    font-size: 53px;
+    line-height: 68.3px;
+}
+.main-header .left-main-header {
+    margin-top: 70px;
+    padding: 0px 24px;
+}
+.main-header .left-main-header .desc {
+    font-size: 20px;
+    line-height: 26.21px;
+}
+.main-header .left-main-header .search-box button {
+    margin-left: 130px;
+}
+.main-header .left-main-header .search-box form {
+    width: 365px;
+}
+.onclick-btn img {
+    display: none !important;
+}
+.products {
+    flex-wrap: wrap;
+}
+.offers-sec .offer-title h2 {
+    text-align: center;
+}
+.offers-sec .offer-title p {
+    width: 380px;
+}
+.products .product-box {
+    margin: 0 60px;
+}
+.products .product-box:nth-child(n+2) {
+    display: none !important;
+}
+.aboutus-sec {
+    flex-wrap: wrap;
+}
+.about-leftimg:after {
+    /* background-image: url(../images/rosemary.png);
+    top: -10%; */
+    display: none;
+  
+}
+.about-leftimg img {
+   display: none;
+}
+.about-leftimg .aboutus-mobileimg {
+    display: block !important;
+    width: 380px;
+}
+.about-rightside {
+    padding-left: 24px;
+    margin-top: 64px;
+}
+.aboutus-sec .services {
+ 
+    flex-wrap: wrap;
+}
+.aboutus-sec .about-rightside .about-title p, .app-section .leftside-content p {
+    margin-right: 100px;
+}
+section.menu-tab-sec {
+    margin-top: 120px;
+}
+.tab-row button:nth-child(n+4) {
+    display: none;
+}
+.order-by-app {
+    flex-wrap: wrap-reverse;
+}
+.app-section {
+    margin-top: 20px;
+    padding: 58px 24px;
+}
+.app-section .rightside-pic img {
+    width: 100%;
+}
+.menu-tab-sec .menu-title h4, .app-section .leftside-content h4 {
+    width: 360px;
+}
+.app-section .leftside-content p {
+    width: 285px;
+}
+.footer-row {
+    flex-wrap: wrap;
+    padding-left: 24px;
+}
+.aboutus-sec .about-rightside .about-title h3 {
+    width: 380px;
+}
+}
