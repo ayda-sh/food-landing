@@ -497,3 +497,93 @@ li {
     display: flex;
     gap: 27px;
 }
+
+.app-section .rightside-pic img {
+    position: relative;
+}
+
+.app-section .rightside-pic img:after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/SeekPng.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+.footer-row {
+    display: flex;
+    gap: 70px;
+    padding-top: 120px;
+    justify-content: space-between;
+}
+
+.footer-row .col p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.16px;
+    color: #fff;
+    margin: 15px 0;
+    width: 280px;
+}
+
+.footer-row .col .social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-row .col .social-media i {
+    color: #FDCE77;
+}
+
+.footer-row .col h5 {
+    color: #F65F5F;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.footer-row .col ul {
+    gap: 12px;
+    display: grid;
+    margin-top: 15px;
+}
+
+.footer-row .col ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.16px;
+    color: #fff;
+}
+
+.footer-row .col form {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-row .col form input {
+    background-color: #252525;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 24px;
+}
+
+.footer-row .col form button {
+    background-color: #f65f5f;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #0D0D0D;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.copyright {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin: 90px 0;
+
+}
