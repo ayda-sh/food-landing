@@ -426,3 +426,55 @@ li {
     background-repeat: no-repeat;
     top: 16%;
 }
+
+.menu-tab-sec .menu-title {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.tab-row {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.menu-tab-sec .menu-title h4 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+    color: #fff;
+    text-align: center;
+    width: 650px;
+
+}
+
+.menu-tab-sec .menu-title h4 .red {
+    color: #F65F5F;
+}
+
+.menu-tab-sec .menu-title h4 .yellow {
+    color: #ffc364;
+}
+
+.tab-row button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid #ffffffad;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffffad;
+    transition: .5s;
+}
+
+.tab-row button.onclick, .tab-row button:hover {
+    background-color: #F65F5F;
+    border-color: #F65F5F;
+    color: #0D0D0D;
+    
+}
