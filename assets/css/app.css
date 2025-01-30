@@ -370,7 +370,7 @@ li {
     color: #ffc364;
 }
 
-.aboutus-sec .about-rightside .about-title p {
+.aboutus-sec .about-rightside .about-title p, .app-section .leftside-content p {
     font-size: 18px;
     font-weight: 400;
     line-height: 24.16px;
@@ -443,21 +443,20 @@ li {
     margin-bottom: 100px;
 }
 
-.menu-tab-sec .menu-title h4 {
+.menu-tab-sec .menu-title h4, .app-section .leftside-content h4 {
     font-size: 48px;
     font-weight: 700;
     line-height: 67.2px;
     color: #fff;
-    text-align: center;
     width: 650px;
 
 }
 
-.menu-tab-sec .menu-title h4 .red {
+.menu-tab-sec .menu-title h4 .red, .app-section .leftside-content h4 .red {
     color: #F65F5F;
 }
 
-.menu-tab-sec .menu-title h4 .yellow {
+.menu-tab-sec .menu-title h4 .yellow, .app-section .leftside-content h4 .yellow {
     color: #ffc364;
 }
 
@@ -477,4 +476,24 @@ li {
     border-color: #F65F5F;
     color: #0D0D0D;
     
+}
+
+.app-section {
+    margin-top: 120px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fdc55e12 73.18%);
+
+}
+
+.order-by-app {
+    display: flex;
+    align-items: center;
+}
+
+.app-section .leftside-content p {
+    width: 500px;
+}
+
+.app-section .leftside-content .download-btn {
+    display: flex;
+    gap: 27px;
 }
