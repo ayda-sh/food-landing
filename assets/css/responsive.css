@@ -44,7 +44,8 @@
     display: none !important;
 }
 .products {
-    flex-wrap: wrap;
+   
+    overflow-x: scroll;
 }
 .offers-sec .offer-title h2 {
     text-align: center;
@@ -55,9 +56,7 @@
 .products .product-box {
     margin: 0 60px;
 }
-.products .product-box:nth-child(n+2) {
-    display: none !important;
-}
+
 .aboutus-sec {
     flex-wrap: wrap;
 }
